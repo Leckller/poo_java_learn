@@ -1,11 +1,15 @@
 public class App {
 
     public static void main(String[] args) {
-        int[] numeros = new int[10];
+        String[] numeros = new String[10];
 
         for (int i = 0; i < 10; i++) {
-            numeros[i] = i;
-            System.out.println("array: " + numeros[1]);
+            if (i % 2 != 0) {
+                numeros[i] = "ou é beninah";
+            } else {
+                numeros[i] = "é beninô";
+            }
+            System.out.println(numeros[i]);
         }
 
     }
