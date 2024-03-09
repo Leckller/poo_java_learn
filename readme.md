@@ -1,1 +1,1 @@
-Repositorio para armazenar meus codigos em java durante o estudo do mesmo
+Repositorio para armazenar meus codigos em java durante o estudo da linguagem
