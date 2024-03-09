@@ -12,7 +12,7 @@ public class App {
         // System.out.println(numeros[i]);
         // }
         int actNum = 3;
-        int range = 100;
+        int range = 10;
 
         while (actNum < range) {
             boolean primo = false;
@@ -24,7 +24,7 @@ public class App {
                     primo = false;
                 }
                 float isDiv = actNum / i;
-                if (isDiv != (int) isDiv) {
+                if (isDiv == (int) isDiv) {
                     primo = false;
                 }
             }
